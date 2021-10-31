@@ -160,11 +160,11 @@ function draw() {
       enemygroup3.destroyEach()
     }
     if(enemygroup1.isTouching(helicopter)){
-      p1health=p1health-3
+      p1health=p1health-2
       enemygroup1.destroyEach()
     }
     if(enemygroup3.isTouching(helicopter)){
-      p1health=p1health-3
+      p1health=p1health-2
       enemygroup3.destroyEach()
     }
     if(enemygroup2.isTouching(helicopter)){
@@ -245,12 +245,12 @@ function bullets2(){
     if(p2bullets.isTouching(enemygroup1)){
       p2bullets.destroyEach()
       enemygroup1.destroyEach()
-      scorep2 = scorep2+6
+      scorep2 = scorep2+3
     }
     if(p2bullets.isTouching(enemygroup3)){
       p2bullets.destroyEach()
       enemygroup3.destroyEach()
-      scorep2 = scorep2+6
+      scorep2 = scorep2+3
     }
   }
 }
