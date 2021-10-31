@@ -122,13 +122,13 @@ function draw() {
     if(frameCount % 50 === 0){
       enemies()
     }
-    if(frameCount % 80 === 0){
+    if(frameCount % 100 === 0){
       enemies3()
     }
-    if(frameCount % 90 === 0){
+    if(frameCount % 190 === 0){
       enemies1()
     }
-    if(frameCount % 75 === 0){
+    if(frameCount % 205 === 0){
       enemies2()
     }
     if(keyDown("l")){
